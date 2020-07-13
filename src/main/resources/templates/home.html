@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang=”en” xmlns:th=”http://www.thymeleaf.org”> <!-- edited in -->
+
+<head>
+    <meta charset="UTF-8"/> <!-- edited in -->
+
+
+    <title></title>
+
+</head>
+<body>
+
+<!--<p th:text="$myvar1"></p>-->
+<!-- <p th:text="$myvar2"></p>-->
+
+<p th:text="${myvar1}"></p>
+ <p th:text="${myvar2}"></p>
+
+  <p th:text="#{static.message}"></p>   <!-- message properties file not created -->
+  <p th:text="#{static.message2}"></p>   <!-- message properties file not created -->
+
+
+</body>
+
+<!--static.message=Hello world!-->   <!-- comment: this should be in messages.properties file -->
+<!-- static.message=Here I come!-->   <!-- comment: this should be in messages.properties file -->
+
+</html>
