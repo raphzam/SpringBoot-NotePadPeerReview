@@ -17,6 +17,12 @@ public class HomeController {
     }
 
 
+    @RequestMapping("/displaypage")    //map to display.html // added this method
+    public String display(){
+        return "displaypage";
+    }
+
+
 
 
 
